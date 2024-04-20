@@ -9,7 +9,7 @@ public class DemoJenkinsApiApplication {
 
 	@GetMapping("/hello")
 	public static String sayHello(){
-		return "Hello";
+		return "Hello everyone";
 	}
 
 	public static void main(String[] args) {
